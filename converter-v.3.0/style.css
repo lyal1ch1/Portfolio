@@ -24,7 +24,7 @@ select {
     /* justify-content: flex-end; */
     border-radius: 35%;
 }
-    
+
 .converter {
     margin-top: 25vh;
     margin-left: 15%;
@@ -57,4 +57,26 @@ select {
 .convert {
     /* border: 1px solid red; */
     width: 300px;
+}
+
+.bx {
+    color: #0ef;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 30px;
+}
+
+@media (max-width:450px) {
+
+    .converter {
+        border: none;
+    }
+
+
+    .convert {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+    }
 }

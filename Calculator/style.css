@@ -61,3 +61,11 @@ form input:hover {
     background: #fff;
     color: #0ef;
 }
+
+.bx {
+    color: #0ef;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 30px;
+}

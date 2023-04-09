@@ -424,6 +424,10 @@ header {
 }
 
 
+/* portfolio */
+
+
+
 /* contact */
 
 .container {
@@ -527,6 +531,15 @@ header {
     .content-about img {
         width: 300px;
     }
+
+    .content {
+        margin-top: 0px;
+        padding-top: 0;
+    }
+
+    .left-content {
+        padding-top: 40px;
+    }
 }
 
 @media(max-width: 706px) {
@@ -619,8 +632,14 @@ header {
     }
 
     .content {
-        margin-top: 25px;
+        margin-top: 0px;
+        padding-top: 0;
     }
+
+    .left-content {
+        padding-top: 20px;
+    }
+
 
     .content-about {
         margin-top: 20px;
@@ -641,6 +660,10 @@ header {
 }
 
 @media(max-width: 450px) {
+
+    .bx-big {
+        font-size: 130px;
+    }
 
     .card-portfolio {
         width: 90%;
