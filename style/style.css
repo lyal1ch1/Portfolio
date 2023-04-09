@@ -308,6 +308,8 @@ header {
 } */
 
 .about-p {
+    display: flex;
+    align-items: center;
     max-width: 50%;
     color: #fff;
     font-size: 25px;
